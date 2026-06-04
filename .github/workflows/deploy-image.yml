@@ -9,7 +9,8 @@ jobs:
     environment: production
 
     steps:
-      - name: Simulate deployment of image
+      - name: Simulate Deployment
         run: |
-          echo "Deploying image ghcr.io/${{ github.repository }}:latest"
+          echo "Deploying image:"
+          echo "ghcr.io/${{ github.repository }}:latest"
           echo "Deployment completed"
